@@ -39,3 +39,16 @@ module.exports = {
 
   - import/order가 import 순서를 조정해줌 
 
+
+```javascript
+
+const container = document.getElementById('app');
+
+if (!container) throw new Error('Failed to find the app element');
+
+const root = createRoot(container);
+```
+
+- container의 분기를 설정해주어야 함 
+
+- https://blog.logrocket.com/how-to-use-typescript-with-react-18-alpha/

@@ -8,7 +8,7 @@
 
 - Typescript의 ! null이 아닌 assertion 연산자는 not null 또는 undefined에서와 같이 식이 null을 허용하지 않는 Type 시스템에 대해 assertion함 
 
-- Assertion을 사용해서 Type 시스템에 새 정보를 알리는 것은 종종 코드가 완전히 type-safe하다는 의미 
+- Assertion을 사용해서 Type 시스템에 새 정보를 알리는 것은 종종 코드가 완전히 type-safe하지 않다는 의미 
 
   - 일반적으로 Typescript가 값이 null을 허용할 수 있는 경우를 이해할 수 있도록, 프로그램 논리를 구성하는 것이 좋음 
 
